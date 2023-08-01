@@ -143,7 +143,7 @@ li{
     text-decoration: none;
     font-size: 13px;
     height: 15%;
-    width: 80%;
+    width: 90%;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
@@ -354,8 +354,42 @@ body{
         font-size: 16px;
     }
 }
-@media screen and (max-width: 800px) {
-  .left, .main, .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
+@media screen and (max-width: 768px){
+  Nav li, a {
+    font-weight: 250;
+    font-size: 8px;
+    }
+    section li{
+      font-weight: 275;
+      font-size: 15px;
+    }
+    .button1{
+      font-size: 8px;
+    }
+    h2{
+      font-size: 12.5px;
+    }
+    h3{
+      font-size: 2vh;
+      font-weight: 250;
+    }
+    div p{
+      font-size: 9px;
+    }
+    .section3 h2{
+      font-size: 100%;
+    }
+    .section4 h2{
+      font-size: 100%;
+    }
+    .section5 h2{
+      font-size: 100%;
+    }
+    .newbutton{
+      font-size: 7px;
+    }
+    .boxbutton{
+      font-size: 7px;
+      font-weight: 200;
+    }
 }
