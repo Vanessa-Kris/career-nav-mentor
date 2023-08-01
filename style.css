@@ -356,12 +356,8 @@ body{
 }
 @media screen and (max-width: 768px){
   Nav li, a {
-    font-family: "Montserrat", sans-serif;
     font-weight: 250;
     font-size: 8px;
-    color: #edf0f1;
-    text-decoration: none;
-    list-style-type: none;
     }
     section li{
       font-weight: 275;
